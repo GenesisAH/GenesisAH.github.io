@@ -1,0 +1,157 @@
+/* *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+} */
+
+
+.contenedor{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 12;
+}
+
+
+.audio-content{
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 20px;
+}
+audio{
+    position: relative;
+    z-index: 15;
+}
+.titulo{
+    z-index: 15;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container-imagen{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.imagen{
+    position: relative;
+    z-index: 15;
+    width: 1100px;
+    margin-top: 0;
+
+}
+
+.boton{
+    position: relative;
+    z-index: 15;
+    margin-bottom: 100px;
+    font-size: 20px;
+    padding: 10px 20px;
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+}
+.boton:hover{
+    background-color: white;
+    color: black;
+}
+
+.container-button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top:80px;
+    z-index: 15;
+    position: relative;
+    color: black;
+    font-size: 200px;
+
+}
+@keyframes shakeAnimation {
+    0% {
+    transform: translate(-50%, -50%) rotate(0deg);
+    }
+    25% {
+    transform: translate(-50%, -50%) rotate(-5deg);
+    }
+    75% {
+    transform: translate(-50%, -50%) rotate(5deg);
+    }
+    100% {
+    transform: translate(-50%, -50%) rotate(0deg);
+    }
+}
+
+#shakingText {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    animation: shakeAnimation 0.5s infinite;
+}
+
+#particles-js{
+    height: 100vh;
+    width: 100%;
+    z-index: 1;
+    position: fixed;
+    background: #3b5fb6;
+}
+
+
+.heart{
+    position: relative;
+    width: 250px;
+    height: 250px;
+    z-index: 12;
+    background: #ff4747;
+    transform: rotate(-45deg);
+    box-shadow: -10px 10px 90px #ff4747;
+    animation: animate .6s linear infinite;
+}
+
+@keyframes animate {
+    0%{
+        transform: rotate(-45deg) scale(1.07);
+    }
+    80%{
+        transform: rotate(-45deg) scale(1.0);
+    }
+    100%{
+        transform: rotate(-45deg) scale(0.8);
+    }
+}
+
+.heart::before{
+    content: '';
+    position: absolute;
+    top: -50%;
+    width: 250px;
+    height: 250px;
+    background: #ff4747;
+    border-radius: 50%;
+    box-shadow: -10px 10px 90px #ff4747;
+}
+
+
+.heart::after{
+    content: '';
+    position: absolute;
+    right: -50%;
+    width: 250px;
+    height: 250px;
+    background: #ff4747;
+    border-radius: 50%;
+    box-shadow: 10px 10px 90px #ff4747;
+}
