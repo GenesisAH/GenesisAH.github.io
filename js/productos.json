@@ -1,0 +1,507 @@
+
+[ 
+    {
+        "id": "abrigo-01",
+        "titulo": "Abrigo de lana",
+        "imagen": "./img/abrigos/01.jpg",
+        "categoria": {
+            "nombre": "Abrigos",
+            "id": "abrigos"
+        },
+        "precio": 500
+    },
+    {
+        "id": "abrigo-02",
+        "titulo": "Parka",
+        "imagen": "./img/abrigos/02.jpg",
+        "categoria": {
+            "nombre": "Abrigos",
+            "id": "abrigos"
+        },
+        "precio": 600
+    },
+    {
+        "id": "abrigo-03",
+        "titulo": "Abrigo de paño",
+        "imagen": "./img/abrigos/03.jpg",
+        "categoria": {
+            "nombre": "Abrigos",
+            "id": "abrigos"
+        },
+        "precio": 800
+    },
+    {
+        "id": "abrigo-04",
+        "titulo": "Abrigo de plumas",
+        "imagen": "./img/abrigos/04.jpg",
+        "categoria": {
+            "nombre": "Abrigos",
+            "id": "abrigos"
+        },
+        "precio": 500
+    },
+    {
+        "id": "abrigo-05",
+        "titulo": "Trench coat",
+        "imagen": "./img/abrigos/05.jpg",
+        "categoria": {
+            "nombre": "Abrigos",
+            "id": "abrigos"
+        },
+        "precio": 400
+    },
+    {
+        "id": "abrigo-06",
+        "titulo": "Gabardina",
+        "imagen": "./img/abrigos/06.jpg",
+        "categoria": {
+            "nombre": "Abrigos",
+            "id": "abrigos"
+        },
+        "precio": 200
+    },
+    {
+        "id": "abrigo-07",
+        "titulo": "Chaqueta de cuero",
+        "imagen": "./img/abrigos/07.jpg",
+        "categoria": {
+            "nombre": "Abrigos",
+            "id": "abrigos"
+        },
+        "precio": 1000
+    },
+    {
+        "id": "abrigo-08",
+        "titulo": "Abrigo de piel sintética",
+        "imagen": "./img/abrigos/08.jpg",
+        "categoria": {
+            "nombre": "Abrigos",
+            "id": "abrigos"
+        },
+        "precio": 300
+    },
+    {
+        "id": "abrigo-09",
+        "titulo": "Abrigo acolchado",
+        "imagen": "./img/abrigos/09.jpg",
+        "categoria": {
+            "nombre": "Abrigos",
+            "id": "abrigos"
+        },
+        "precio": 400
+    },
+    {
+        "id": "abrigo-10",
+        "titulo": "Poncho de lana",
+        "imagen": "./img/abrigos/10.jpg",
+        "categoria": {
+            "nombre": "Abrigos",
+            "id": "abrigos"
+        },
+        "precio": 200
+    },
+
+    {
+        "id": "camiseta-01",
+        "titulo": "Camiseta básica de algodón",
+        "imagen": "./img/camisetas/01.jpg",
+        "categoria": {
+            "nombre": "Camisetas",
+            "id": "camisetas"
+        },
+        "precio": 30
+    },
+    {
+        "id": "camiseta-02",
+        "titulo": "Camiseta estampada",
+        "imagen": "./img/camisetas/02.jpg",
+        "categoria": {
+            "nombre": "Camisetas",
+            "id": "camisetas"
+        },
+        "precio": 40
+    },
+    {
+        "id": "camiseta-03",
+        "titulo": "Camiseta de manga larga",
+        "imagen": "./img/camisetas/03.jpg",
+        "categoria": {
+            "nombre": "Camisetas",
+            "id": "camisetas"
+        },
+        "precio": 50
+    },
+    {
+        "id": "camiseta-04",
+        "titulo": "Camiseta de tirantes",
+        "imagen": "./img/camisetas/04.jpg",
+        "categoria": {
+            "nombre": "Camisetas",
+            "id": "camisetas"
+        },
+        "precio": 35
+    },
+    {
+        "id": "camiseta-05",
+        "titulo": "Camiseta de rayas",
+        "imagen": "./img/camisetas/05.jpg",
+        "categoria": {
+            "nombre": "Camisetas",
+            "id": "camisetas"
+        },
+        "precio": 40
+    },
+    {
+        "id": "camiseta-06",
+        "titulo": "Camiseta de cuello redondo",
+        "imagen": "./img/camisetas/06.jpg",
+        "categoria": {
+            "nombre": "Camisetas",
+            "id": "camisetas"
+        },
+        "precio": 25
+    },
+    {
+        "id": "camiseta-07",
+        "titulo": "Camiseta organica",
+        "imagen": "./img/camisetas/07.jpg",
+        "categoria": {
+            "nombre": "Camisetas",
+            "id": "camisetas"
+        },
+        "precio": 20
+    },
+    {
+        "id": "camiseta-08",
+        "titulo": "Camiseta de cuello en V",
+        "imagen": "./img/camisetas/08.jpg",
+        "categoria": {
+            "nombre": "Camisetas",
+            "id": "45"
+        },
+        "precio": 35
+    },
+    {
+        "id": "camiseta-09",
+        "titulo": "Camiseta de deporte",
+        "imagen": "./img/camisetas/08.jpg",
+        "categoria": {
+            "nombre": "Camisetas",
+            "id": "camisetas"
+        },
+        "precio": 50
+    },
+    {
+        "id": "camiseta-10",
+        "titulo": "Camiseta de manga raglán",
+        "imagen": "./img/camisetas/08.jpg",
+        "categoria": {
+            "nombre": "Camisetas",
+            "id": "camisetas"
+        },
+        "precio": 25
+    },
+
+    {
+        "id": "Bebida-01",
+        "titulo": "Red Bull",
+        "imagen": "./img/bebidas/01.jpg",
+        "categoria": {
+            "nombre": "Bebidas",
+            "id": "bebidas"
+        },
+        "precio": 9
+    },
+    {
+        "id": "Bebida-02",
+        "titulo": "Monster Energy",
+        "imagen": "./img/bebidas/02.jpg",
+        "categoria": {
+            "nombre": "Bebidas",
+            "id": "bebidas"
+        },
+        "precio": 12
+    },
+    {
+        "id": "Bebida-03",
+        "titulo": "Rocksta",
+        "imagen": "./img/bebidas/03.jpg",
+        "categoria": {
+            "nombre": "Bebidas",
+            "id": "bebidas"
+        },
+        "precio": 7
+    },
+    {
+        "id": "Bebida-04",
+        "titulo": "NOS Energy Drink",
+        "imagen": "./img/bebidas/04.jpg",
+        "categoria": {
+            "nombre": "Bebidas",
+            "id": "bebidas"
+        },
+        "precio": 9
+    },
+    {
+        "id": "Bebida-05",
+        "titulo": "5-Hour Energy",
+        "imagen": "./img/bebidas/05.jpg",
+        "categoria": {
+            "nombre": "Bebidas",
+            "id": "bebidas"
+        },
+        "precio": 7
+    },
+    {
+        "id": "Bebida-06",
+        "titulo": "Cerveza",
+        "imagen": "./img/bebidas/07.jpg",
+        "categoria": {
+            "nombre": "Bebidas",
+            "id": "bebidas"
+        },
+        "precio": 10
+    },
+    {
+        "id": "Bebida-07",
+        "titulo": "Vodka Red Bull",
+        "imagen": "./img/bebidas/08.jpg",
+        "categoria": {
+            "nombre": "Bebidas",
+            "id": "bebidas"
+        },
+        "precio": 21
+    },
+    {
+        "id": "Bebida-08",
+        "titulo": "Whisky cola",
+        "imagen": "./img/bebidas/08.jpg",
+        "categoria": {
+            "nombre": "Bebidas",
+            "id": "bebidas"
+        },
+        "precio": 25
+    },
+    {
+        "id": "Bebida-09",
+        "titulo": "Mojito",
+        "imagen": "./img/bebidas/09.jpg",
+        "categoria": {
+            "nombre": "Bebidas",
+            "id": "bebidas"
+        },
+        "precio": 45
+    },
+    {
+        "id": "Bebida-10",
+        "titulo": "Margarita",
+        "imagen": "./img/bebidas/01.jpg",
+        "categoria": {
+            "nombre": "Bebidas",
+            "id": "bebidas"
+        },
+        "precio": 40
+    },
+
+    {
+        "id": "Zapatilla-01",
+        "titulo": "Nike Air Force 1",
+        "imagen": "./img/zapatillas/01.jpg",
+        "categoria": {
+            "nombre": "Zapatillas",
+            "id": "zapatillas"
+        },
+        "precio": 600
+    },
+    {
+        "id": "Zapatilla-02",
+        "titulo": "Adidas Stan Smith",
+        "imagen": "./img/zapatillas/02.png",
+        "categoria": {
+            "nombre": "Zapatillas",
+            "id": "zapatillas"
+        },
+        "precio": 280
+    },
+    {
+        "id": "Zapatilla-03",
+        "titulo": "Converse Chuck Taylor All Star",
+        "imagen": "./img/zapatillas/03.jpg",
+        "categoria": {
+            "nombre": "Zapatillas",
+            "id": "zapatillas"
+        },
+        "precio": 320
+    },
+    {
+        "id": "Zapatilla-04",
+        "titulo": "Puma Suede Classic",
+        "imagen": "./img/zapatillas/04.jpg",
+        "categoria": {
+            "nombre": "Zapatillas",
+            "id": "zapatillas"
+        },
+        "precio": 500
+    },
+    {
+        "id": "Zapatilla-05",
+        "titulo": "Vans Old Skool",
+        "imagen": "./img/zapatillas/05.jpg",
+        "categoria": {
+            "nombre": "Zapatillas",
+            "id": "zapatillas"
+        },
+        "precio": 350
+    },
+    {
+        "id": "Zapatilla-06",
+        "titulo": "New Balance 574",
+        "imagen": "./img/zapatillas/06.jpg",
+        "categoria": {
+            "nombre": "Zapatillas",
+            "id": "zapatillas"
+        },
+        "precio": 850
+    },
+    {
+        "id": "Zapatilla-07",
+        "titulo": "Reebok Classic Leathe",
+        "imagen": "./img/zapatillas/07.jpg",
+        "categoria": {
+            "nombre": "Zapatillas",
+            "id": "zapatillas"
+        },
+        "precio": 580
+    },
+    {
+        "id": "Zapatilla-08",
+        "titulo": "ASICS Gel-Lyte III",
+        "imagen": "./img/zapatillas/08.jpg",
+        "categoria": {
+            "nombre": "Zapatillas",
+            "id": "zapatillas"
+        },
+        "precio": 800
+    },
+    {
+        "id": "Zapatilla-09",
+        "titulo": "Under Armour HOVR Phantom",
+        "imagen": "./img/zapatillas/09.jpg",
+        "categoria": {
+            "nombre": "Zapatillas",
+            "id": "zapatillas"
+        },
+        "precio": 560
+    },
+    {
+        "id": "Zapatilla-10",
+        "titulo": "Skechers D'Lites",
+        "imagen": "./img/zapatillas/10.jpg",
+        "categoria": {
+            "nombre": "Zapatillas",
+            "id": "zapatillas"
+        },
+        "precio": 800
+    },
+
+    {
+        "id": "pantalon-01",
+        "titulo": "Levi's 501 Original Fit Jeans",
+        "imagen": "./img/pantalones/01.jpg",
+        "categoria": {
+            "nombre": "Pantalones",
+            "id": "pantalones"
+        },
+        "precio": 340
+    },
+    {
+        "id": "pantalon-02",
+        "titulo": "Wrangler Regular Fit Jeans",
+        "imagen": "./img/pantalones/02.jpg",
+        "categoria": {
+            "nombre": "Pantalones",
+            "id": "pantalones"
+        },
+        "precio": 240
+    },
+    {
+        "id": "pantalon-03",
+        "titulo": "H&M Slim Fit Chinos",
+        "imagen": "./img/pantalones/03.jpg",
+        "categoria": {
+            "nombre": "Pantalones",
+            "id": "pantalones"
+        },
+        "precio": 120
+    },
+    {
+        "id": "pantalon-04",
+        "titulo": "Nike Sportswear Joggers",
+        "imagen": "./img/pantalones/04.jpg",
+        "categoria": {
+            "nombre": "Pantalones",
+            "id": "pantalones"
+        },
+        "precio": 320
+    },
+    {
+        "id": "pantalon-05",
+        "titulo": "Adidas Tiro 19 Training Pants",
+        "imagen": "./img/pantalones/05.jpg",
+        "categoria": {
+            "nombre": "Pantalones",
+            "id": "pantalones"
+        },
+        "precio": 180
+    },
+    {
+        "id": "pantalon-06",
+        "titulo": "Zara Skinny Fit Jeans",
+        "imagen": "./img/pantalones/04.jpg",
+        "categoria": {
+            "nombre": "Pantalones",
+            "id": "pantalones"
+        },
+        "precio": 329
+    },
+    {
+        "id": "pantalon-07",
+        "titulo": "GAP Straight Fit Khakis",
+        "imagen": "./img/pantalones/03.jpg",
+        "categoria": {
+            "nombre": "Pantalones",
+            "id": "pantalones"
+        },
+        "precio": 300
+    },
+    {
+        "id": "pantalon-08",
+        "titulo": "Under Armour Rival Fleece Joggers",
+        "imagen": "./img/pantalones/01.jpg",
+        "categoria": {
+            "nombre": "Pantalones",
+            "id": "pantalones"
+        },
+        "precio": 240
+    },
+    {
+        "id": "pantalon-09",
+        "titulo": "Columbia Silver Ridge Convertible Pants",
+        "imagen": "./img/pantalones/05.jpg",
+        "categoria": {
+            "nombre": "Pantalones",
+            "id": "pantalones"
+        },
+        "precio": 340
+    },
+    {
+        "id": "pantalon-10",
+        "titulo": "Dockers Classic Fit Dress Pants",
+        "imagen": "./img/pantalones/02.jpg",
+        "categoria": {
+            "nombre": "Pantalones",
+            "id": "pantalones"
+        },
+        "precio": 280
+    }
+]

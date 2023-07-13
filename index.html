@@ -1,66 +1,113 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Feliz Cumpleaños ᓚᘏᗢ</title>
-    <link rel="stylesheet" href="/style.css">
+    <link rel="shortcut icon" href="/Tienda Mass/img/icons/test-removebg-preview.png" type="image/x-icon">
+    <title>Tienda Mass ✅✅ </title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
-    <link rel="icon" href="/img/sinfondo2.png" type="image/x-icon">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
         crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="./css/main.css">
 </head>
 
 <body>
 
-    <div id="particles-js"></div>
-    <div class="audio-content">
-        <audio
-            src="/audio/X2Download.app - Cumpleaños Feliz - Happy Birthday To You - (Original Version) (128 kbps).mp3"
-            controls></audio>
+    <div class="wrapper">
+        <header class="header-mobile">
+            <h1 class="logo">Mass Shop</h1>
+            <button class="open-menu" id="open-menu">
+                <i class="bi bi-list"></i>
+            </button>
+        </header>
+        <aside>
+            <button class="close-menu" id="close-menu">
+                <i class="bi bi-x"></i>
+            </button>
+            <header>
+                <div class="h-normal">
+                    <h1 class="logo">Mass Shop</h1>
+                    <i class="bi bi-bag-check"></i>
+                </div>
+                <div class="c-registro">
+                    <label for="" class="text-boton">Aun no estas registrado?</label>
+                    <a href="/Tienda Mass/pages/login.html" target="_blank"><button type="button"
+                            class="btn btn-primary boton-registro">Registrese</button></a>
+                </div>
+            </header>
+            <nav>
+                <ul class="menu">
+                    <li>
+                        <button id="todos" class="boton-menu boton-categoria active"><i class="fa-solid fa-shop"></i>
+                            Todos los productos</button>
+                    </li>
+                    <li>
+                        <button id="abrigos" class="boton-menu boton-categoria"><i class="bi bi-hand-index-thumb"></i>
+                            Abrigos</button>
+                    </li>
+                    <li>
+                        <button id="camisetas" class="boton-menu boton-categoria"><i class="bi bi-hand-index-thumb"></i>
+                            Camisetas</button>
+                    </li>
+                    <li>
+                        <button id="bebidas" class="boton-menu boton-categoria"><i class="bi bi-hand-index-thumb"></i>
+                            Bebidas</button>
+                    </li>
+                    <li>
+                        <button id="zapatillas" class="boton-menu boton-categoria"><i
+                                class="bi bi-hand-index-thumb"></i>
+                            Zapatillas</button>
+                    </li>
+                    <li>
+                        <button id="pantalones" class="boton-menu boton-categoria"><i
+                                class="bi bi-hand-index-thumb"></i> Pantalones</button>
+                    </li>
+                    <li>
+                        <a class="boton-menu boton-carrito" href="./carrito.html">
+                            <i class="bi bi-cart-fill"></i> Carrito <span id="numerito" class="numerito">0</span>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+            <footer>
+                <p class="texto-footer"><b>Certus-Evidencia04</b></p>
+            </footer>
+        </aside>
+        <main>
+            <h2 class="titulo-principal" id="titulo-principal">Todos los productos</h2>
+            <div id="contenedor-productos" class="contenedor-productos">
+                <!-- Esto se va a rellenar con JS -->
+            </div>
+        </main>
     </div>
 
-    <div class="titulo">
-        <h1 id="shakingText"><b>Felíz cumpleaños Genesis UWU</b></h1>
-    </div>
-    <div class="contenedor">
-        <div class="heart"></div>
-    </div>
-    <div class="container-button">
-        <button class="boton" id="button"><span><b>Presioname</b></span></button>
-    </div>
-
-    <div class="container-imagen">
-        <img src="/img/580-5805322_strawberry-cake-pixel-art-hd-png-download-removebg-preview.png" alt="" class="imagen"
-            id="rotate-image">
-    </div>
-
-    <script src="/js/particles.min.js"></script>
-    <script src="/js/app.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+    <script src="./js/main.js"></script>
+    <script src="./js/menu.js"></script>
     <script>
-        document.getElementById("button").addEventListener("click", function () {
-            Swal.fire({
-                title: '<strong><u>FELIZ CUMPLEAÑOS</u></strong>',
-                icon: 'success',
-                html:
-                    'Felíz cumpleaños <b>Genesis</b>, ' +
-                    '<a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank">clik here :v</a> ' +
-                    'espero la pases, muy bien recuerda que yo siempre que pueda estare contigo uwu <b>TE QUIERO</b>',
-                showCloseButton: true,
-                showCancelButton: false,
-                focusConfirm: false,
-                confirmButtonText:
-                    '<i class="fa fa-thumbs-up"></i> Thenkiu por tu esfuerzo sebastian uwu',
-                confirmButtonAriaLabel: 'Thumbs up, great!',
-                cancelButtonText:
-                    '<i class="fa fa-thumbs-down"></i>',
-                cancelButtonAriaLabel: 'Thumbs down'
-            })
-        });
+        window.addEventListener('mouseover', initLandbot, { once: true });
+        window.addEventListener('touchstart', initLandbot, { once: true });
+        var myLandbot;
+        function initLandbot() {
+            if (!myLandbot) {
+                var s = document.createElement('script'); s.type = 'text/javascript'; s.async = true;
+                s.addEventListener('load', function () {
+                    var myLandbot = new Landbot.Livechat({
+                        configUrl: 'https://storage.googleapis.com/landbot.online/v3/H-1660032-R4MC7ONZFT4385M7/index.json',
+                    });
+                });
+                s.src = 'https://cdn.landbot.io/landbot-3/landbot-3.0.0.js';
+                var x = document.getElementsByTagName('script')[0];
+                x.parentNode.insertBefore(s, x);
+            }
+        }
     </script>
 </body>
 

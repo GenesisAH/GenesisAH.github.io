@@ -1,0 +1,231 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&family=Paytone+One&family=Poppins:wght@300&family=Quicksand:wght@500&family=Rubik+Dirt&family=Skranji&display=swap');
+
+*{
+    font-family: 'Noto Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.contenedor-tlogin{
+    z-index: 100;
+    color: white;
+    position: relative;
+    padding-top: 80px;
+    font-weight:800 ;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.titulo-login{
+    font-size: 60px;
+}
+
+.icon-titulo{
+    font-size: 50px;
+    margin-left: 15px;
+}
+#particles-js{
+    height: 100vh;
+    width: 100%;
+    z-index: 1;
+    position: fixed;
+    background-color: #000000;
+}
+
+
+/* .titulo-login{
+    z-index: 100;
+    color: white;
+    position: relative;
+    text-align: center;
+    padding-top: 50px;
+    font-weight:800 ;
+} */
+
+
+
+.contenedor{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    column-gap: 30px;
+    z-index: 13;
+}
+
+.form{
+    position:absolute;
+    max-width: 430px;
+    width: 100%;
+    padding: 30px;
+    border-radius: 6px;
+    background: #fff;
+    z-index: 13;
+}
+.form.registro{
+    opacity: 0;
+    pointer-events: none;
+}
+
+.forms.show-signup .form.registro{
+    opacity: 1;
+    pointer-events: auto;
+}
+
+.forms.show-signup .form.login{
+    opacity: 0;
+    pointer-events: none;
+}
+
+header{
+    font-size: 28px;
+    font-weight: 600;
+    color:#232836;
+    text-align: center;
+}
+
+form{
+    margin-top: 30px;
+}
+
+.form .field{
+    position: relative;
+    height: 50px;
+    width: 100%;
+    margin-top: 20px;
+    border-radius: 30px;
+}
+
+.eye-icon{
+    position: absolute;
+    font-size: 18px;
+    color: #8b8b8b;
+    top: 50%;
+    right: 10px;
+    transform:translateY(-50%) ;
+    cursor: pointer;
+    padding: 5px;
+}
+.field input,
+.field button{
+    height: 100%;
+    width: 100%;
+    border: none;
+    font-size: 16px ;
+    font-weight: 400;
+    border-radius: 6px;
+}
+
+.fiel button{
+    transition: all 0.3s ease;
+}
+/* .field button:hover{
+
+} */
+
+.field input{
+    outline: none;
+    padding: 0 15px;
+    border: 1px solid #CACACA;
+}
+
+.field input:focus{
+    border-bottom-width: 2px;
+}
+.form-link{
+    text-align: center;
+    margin-top: 10px;
+}
+
+
+.form-link span,
+.form-link span a{
+    font-size: 14px;
+    font-weight: 400;
+    color: #043dda;
+}
+
+.form a{
+    text-decoration: none;
+    color: #0171d3;
+}
+.form-content a:hover{
+    text-decoration: underline;
+}
+
+.line{
+    position: relative;
+    height: 1px;
+    width: 100%;
+    margin: 36px 0;
+    background-color: #d4d4d4;
+}
+
+.line::before{
+    content: 'O';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    color: #232836;
+    padding: 0 15px;
+}
+
+.media-options a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+a.gh{
+    background-color: #171515;
+    color: #ffffff;
+}
+
+a.gh .github-icon{
+    height: 28px;
+    width: 28px;
+    background-color: #fff;
+    color: #171515;
+    font-size: 20px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.github-icon,
+img.google-img{
+    position: absolute;
+    top: 50%;
+    left: 15px;
+    transform: translateY(-50%);
+}
+
+img.google-img{
+    width: 20px;
+    height: 20px;
+    object-fit: cover;
+}
+
+a.google{
+    border: 1px solid #CACACA;
+}
+
+a.google span{
+    font-weight: 500;
+    opacity: 0.8;
+    color: #232836;
+}
+
+@media screen and (max-width: 400px){
+    .form{
+        padding: 15px 10px;
+    }
+}
